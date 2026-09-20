@@ -43,7 +43,7 @@ An embedded, multi-bay Edge AI system built on **ESP32 Microcontrollers** using 
 * **RPC Communication (rpc.cpp / network.cpp):** Handles bidirectional RPC synchronization with central dashboards and neighboring charging nodes.
 
 ## 🚀 Getting Started
-* **Prerequisites:**
+### **Prerequisites:**
 * Install Visual Studio Code.
 * Install the PlatformIO IDE extension inside VS Code.
 
@@ -63,12 +63,19 @@ cd EDGE-AI-Based-smart-EV-charging-Optimizer**
 * Open include/config.h inside the selected BAY folder.
 * Set your Wi-Fi credentials, server endpoints, and pin configurations.
 
-### **Build Firmware:**
+### **4. Build Firmware:**
 * Click the PlatformIO: Build checkmark icon in the VS Code status bar (or press Ctrl+Alt+B).
 
-### **Upload Firmware:**
+### **5. Upload Firmware:**
 * Connect your ESP32 board to your computer via USB.
 * Click the PlatformIO: Upload arrow icon in the status bar.
+
+## ⚡ Hardware Simulation (Wokwi)
+### **To run and test the edge system virtually without physical hardware:**
+* Open any BAY project directory in VS Code.
+* Ensure test/diagram.json or test/wokwi.toml is present in the workspace.
+* Open the Command Palette (F1 or Ctrl+Shift+P).
+* Type and select Wokwi: Start Simulator.
 ---
 
 ## 📁 Repository Structure
