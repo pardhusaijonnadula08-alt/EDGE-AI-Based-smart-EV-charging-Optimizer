@@ -31,6 +31,28 @@ An embedded, multi-bay Edge AI system built on **ESP32 Microcontrollers** using 
 
 * **Simulation:** Wokwi Simulator (wokwi.toml / diagram.json)
 
+## 🔬 System Workflow
+* The edge device operates through four primary functional modules:
+
+* **Telemetry Pipeline (telemetry.cpp):** Periodically samples voltage, current, and thermal metrics.
+
+* **State Machine (State.cpp):** Manages real-time bay state transitions (IDLE, CONNECTING, CHARGING, THROTTLED, FAULT).
+
+* **Edge Optimization (edge_ai.cpp / optimization.cpp):** Evaluates real-time metrics against embedded machine learning models to dy/namically balance and throttle output power.
+
+* **RPC Communication (rpc.cpp / network.cpp):** Handles bidirectional RPC synchronization with central dashboards and neighboring charging nodes.
+
+## 🚀 Getting Started
+* **Prerequisites:**
+* Install Visual Studio Code.
+* Install the PlatformIO IDE extension inside VS Code.
+
+* **Install the Wokwi Simulator extension for VS Code to run simulations without hardware.**
+
+## Building & Flashing
+* **Clone the Repository:**
+* **git clone https://github.com/YOUR-USERNAME/EDGE-AI-Based-smart-EV-charging-Optimizer.git
+cd EDGE-AI-Based-smart-EV-charging-Optimizer**
 ---
 
 ## 📁 Repository Structure
