@@ -15,9 +15,9 @@ An embedded, multi-bay Edge AI system built on **ESP32 Microcontrollers** using 
 
 ## 🛠️ Hardware & Software Stack
 
-* **Hardware Core**
+### **Hardware Core**
 * **Microcontroller:** ESP32 Development Board (NodeMCU / ESP32-WROOM-32)
-* **Sensors:**
+### **Sensors:**
 * Current Sensor (ACS712 / INA219)
 * Voltage Sensor Module
 * Temperature Sensor (DS18B20 / NTC)
