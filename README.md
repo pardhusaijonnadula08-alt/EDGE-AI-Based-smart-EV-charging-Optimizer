@@ -13,26 +13,23 @@ An embedded, multi-bay Edge AI system built on **ESP32 Microcontrollers** using 
 * **Hardware Abstraction**: Dedicated peripheral management layer (`Peripherals.h`) handling relays, sensors, and status indicators.
 * **Simulation Support**: Built-in support for offline hardware simulation using **Wokwi** (`wokwi.toml`, `diagram.json`).
 
-##🛠️ Hardware & Software Stack
+## 🛠️ Hardware & Software Stack
 
-* **Hardware Core
-* **Microcontroller: ESP32 Development Board (NodeMCU / ESP32-WROOM-32)
-* **Sensors:
+* **Hardware Core**
+* **Microcontroller:** ESP32 Development Board (NodeMCU / ESP32-WROOM-32)
+* **Sensors:**
+* Current Sensor (ACS712 / INA219)
+* Voltage Sensor Module
+* Temperature Sensor (DS18B20 / NTC)
 
-* **Current Sensor (ACS712 / INA219)
-
-* **Voltage Sensor Module
-
-* **Temperature Sensor (DS18B20 / NTC)
-
-* **Actuators: Relays / PWM Output for dynamic EV charging rate control
+* **Actuators:** Relays / PWM Output for dynamic EV charging rate control
 
 ## Software & Frameworks
-* **Framework: C++ / Arduino Framework via PlatformIO
+* **Framework:** C++ / Arduino Framework via PlatformIO
 
-* **IDE: Visual Studio Code with PlatformIO Extension
+* **IDE:** Visual Studio Code with PlatformIO Extension
 
-* **Simulation: Wokwi Simulator (wokwi.toml / diagram.json)
+* **Simulation:** Wokwi Simulator (wokwi.toml / diagram.json)
 
 ---
 
@@ -64,24 +61,3 @@ EDGE-AI-Based-smart-EV-charging-Optimizer/
 
 
 ## Note: Each BAY folder functions as an independent PlatformIO project node, enabling modular deployment to individual ESP32 microcontrollers.
-
-🛠️ Hardware & Software Stack
-Hardware Core
-Microcontroller: ESP32 Development Board (NodeMCU / ESP32-WROOM-32)
-
-Sensors:
-
-Current Sensor (ACS712 / INA219)
-
-Voltage Sensor Module
-
-Temperature Sensor (DS18B20 / NTC)
-
-Actuators: Relays / PWM Output for dynamic EV charging rate control
-
-Software & Frameworks
-Framework: C++ / Arduino Framework via PlatformIO
-
-IDE: Visual Studio Code with PlatformIO Extension
-
-Simulation: Wokwi Simulator (wokwi.toml / diagram.json)
