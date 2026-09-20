@@ -50,9 +50,25 @@ An embedded, multi-bay Edge AI system built on **ESP32 Microcontrollers** using 
 * **Install the Wokwi Simulator extension for VS Code to run simulations without hardware.**
 
 ## Building & Flashing
-* **Clone the Repository:**
+### **1. Clone the Repository:**
 * **git clone https://github.com/YOUR-USERNAME/EDGE-AI-Based-smart-EV-charging-Optimizer.git
 cd EDGE-AI-Based-smart-EV-charging-Optimizer**
+
+### **2. Open a Target Bay in PlatformIO:**
+
+* Open VS Code.
+* Go to File ➔ Open Folder... and select the target bay project folder (e.g., BAY1).
+
+### **3. Configure Parameters:**
+* Open include/config.h inside the selected BAY folder.
+* Set your Wi-Fi credentials, server endpoints, and pin configurations.
+
+### **Build Firmware:**
+* Click the PlatformIO: Build checkmark icon in the VS Code status bar (or press Ctrl+Alt+B).
+
+### **Upload Firmware:**
+* Connect your ESP32 board to your computer via USB.
+* Click the PlatformIO: Upload arrow icon in the status bar.
 ---
 
 ## 📁 Repository Structure
